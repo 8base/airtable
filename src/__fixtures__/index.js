@@ -721,6 +721,284 @@ const AIRTABLE_SCHEMA = {
   },
 }
 
+const AIRTABLE_DATA = {
+  'Initiatives & Organizations': [
+    {
+      id: 'recJqTXT1I3ReZqkH',
+      'Initiative Name': '1ST Bergen Federal Credit Union',
+      Description:
+        'Great Bergen Community Action (formerly Bergen Community Action Program) empowers low-income singles, couples and families with programs and services that help them on their road to self-sustainability and a stronger future.',
+      Image: [
+        {
+          id: 'attoZAo2AXR3Uc3yf',
+          url:
+            'http://spongoblast.com/convertibility/pseudoaquatic?a=pitter&b=valeramide#thomsenolite',
+          filename: '1ST Bergen Federal Credit Union.png',
+          size: 40466,
+          type: 'image/png',
+          thumbnails: {
+            small: {
+              url:
+                'http://promising.com/overelate/unlikableness?a=postmammary&b=salvy#factualness',
+              width: 36,
+              height: 36,
+            },
+            large: {
+              url:
+                'http://unstethoscoped.com/taurotragus/grossularite?a=sampaloc&b=hydraulicity#greenly',
+              width: 340,
+              height: 340,
+            },
+            full: {
+              url:
+                'https://unconstructive.com/cham/monoamino?a=creamfruit&b=floatmaker#fitting',
+              width: 340,
+              height: 340,
+            },
+          },
+        },
+      ],
+      URL: 'http://www.1stbergen.com',
+      'Service Categories': [
+        'Deposits & Savings',
+        'Financial Counseling & Education',
+        'Wealth Management',
+      ],
+      'Affiliated Initiatives & Organizations': [
+        'recOFoBXVal0LvcnP',
+        'recv2VSlGhCJRYxCo',
+        'recPpoEavzOUPudvK',
+        'receCtd8W2TRX1QQx',
+        'rectiv5jfi4sCUCcp',
+        'recXKxZWxLneNP6Qs',
+      ],
+      'Locations / Regions': 'Hackensak, New Jersey, USA',
+      Twitter:
+        'http://haygrower.com/foliicolous/bokard?a=perfectivize&b=mesoscutellum#pandle',
+      Beneficiaries:
+        'low-income singles, couples and families with programs and services',
+      Type: ['recA147S2P4ky4yPD'],
+      'Last Updated': '2017-06-22',
+    },
+  ],
+  Objectives: [
+    {
+      id: 'rechfRV8UQHQtHJ6o',
+      Name: 'Financial inclusion',
+      'Orgs / Projects / Products': [
+        'recY5d1baWHgleN0X',
+        'recob0RotXSrmDEaT',
+        'reckHxRSaQDlu3OFU',
+        'recsokeOUzBWhJnWs',
+        'recjpQijJGIz2FNeV',
+        'recJ4O7J6xVk1mNlZ',
+        'recj7RZcNfnRIYnCM',
+        'recNTKBlemYsB5NZT',
+        'rec0DXPsMkCJqjh4F',
+        'recqRZpC90IAaYSyK',
+        'reczXmAn8HV7juCZL',
+        'recRuAwbSVklDc6s7',
+        'recaGe4YM6surTc9a',
+        'recLydfVnYmfeXSEj',
+        'recy2RmoymS2zyuBG',
+      ],
+    },
+  ],
+  'Global Goals': [
+    {
+      id: 'rechT6UR9vhn8piTf',
+      Name: 'No Poverty',
+      Notes:
+        'Goal 1 calls for an end to poverty in all its manifestations by 2030. It also aims to ensure social protection for the poor and vulnerable, increase access to basic services and support people harmed by climate-related extreme events and other economic, social and environmental shocks and disasters.',
+      'Initiatives & Organizations': [
+        'recob0RotXSrmDEaT',
+        'rec8kSMZLIy3WxVqi',
+        'recjpQijJGIz2FNeV',
+        'recnFTWO2NdgAvHzB',
+        'reczXmAn8HV7juCZL',
+        'recRuAwbSVklDc6s7',
+        'recLu5lkXd9LR2gdB',
+        'recaGe4YM6surTc9a',
+        'recy2RmoymS2zyuBG',
+      ],
+      URL:
+        'http://plinian.com/pampharmacon/perionychia?a=bedur&b=prolocutress#holothurian',
+      Image: [
+        {
+          id: 'attWrmLSu3YJNek6z',
+          url:
+            'http://neurochord.com/stethophonometer/dukkeripen?a=balanophoraceae&b=chichi#graffage',
+          filename: 'E_SDG_Icons-01.jpg',
+          size: 80247,
+          type: 'image/jpeg',
+          thumbnails: {
+            small: {
+              url:
+                'https://isochrone.com/tangentially/archispermae?a=myotrophy&b=wyne#pneumatogenous',
+              width: 36,
+              height: 36,
+            },
+            large: {
+              url:
+                'https://addenda.com/gilia/adminicula?a=assentatory&b=stableboy#quercitannic',
+              width: 466,
+              height: 466,
+            },
+            full: {
+              url:
+                'https://dilutent.com/periureteritis/nincompoop?a=torpedolike&b=apostaxis#semifloret',
+              width: 466,
+              height: 466,
+            },
+          },
+        },
+      ],
+    },
+  ],
+  'Initiative Type': [
+    {
+      id: 'recusBlXdpbDmISxB',
+      Name: 'Academic Institution',
+      'Initiatives & Organizations': ['rec6adm6HhdjRyX5V'],
+    },
+  ],
+  People: [
+    {
+      id: 'recOPQF5tZGeSIAHa',
+      Name: 'Taynah Reis',
+      Images: [
+        {
+          id: 'attAmMOCuJitCcyGc',
+          url:
+            'http://floodwood.com/pap/crystallographical?a=electrification&b=alcaldeship#malasapsap',
+          filename:
+            'AAEAAQAAAAAAAAmFAAAAJGM2ZTI1MDYzLWQ5YWEtNDZiOC05NWNkLWUzYzVmYjU4NzViMA.jpg',
+          size: 15993,
+          type: 'image/jpeg',
+          thumbnails: {
+            small: {
+              url:
+                'http://wagwag.com/homoeoteleuton/propitiatory?a=dispone&b=screechingly#polarimetric',
+              width: 36,
+              height: 36,
+            },
+            large: {
+              url:
+                'http://rallentando.com/tenoroon/fucoxanthin?a=prehesitation&b=sheikly#unwearisomeness',
+              width: 400,
+              height: 400,
+            },
+            full: {
+              url:
+                'http://plectopter.com/orchesis/ratsbane?a=vouch&b=bred#deacidification',
+              width: 400,
+              height: 400,
+            },
+          },
+        },
+      ],
+      Organizations: ['rec9tcYkJcFk65KRz'],
+      Linkedin:
+        'https://ichorrhemia.com/joachim/lipwork?a=hatbox&b=pedro#intersale',
+      'Blogs / Updates':
+        'https://heliotactic.com/supercommentator/postliminous?a=unbeaconed&b=cyanobenzene#ham',
+    },
+  ],
+  'Technology Types': [
+    {
+      id: 'recT2RORVIXCSAgJT',
+      Name: 'Blockchain',
+      Notes:
+        'A distributed database that is used to maintain a continuously growing list of records, called blocks. Each block contains a timestamp and a link to a previous block.',
+      'Learn more':
+        'https://downswing.com/unselfness/prehensor?a=broommaker&b=eggler#unrelatedness',
+      'Initiatives & Organizations': [
+        'rec9tcYkJcFk65KRz',
+        'recJicKuc903TfZpx',
+        'recl6haRAFO42kIAl',
+        'recY5d1baWHgleN0X',
+        'recsokeOUzBWhJnWs',
+        'recJ4O7J6xVk1mNlZ',
+      ],
+    },
+  ],
+  Documentation: [
+    {
+      id: 'recgw9jpI79Qq4QgN',
+      Name: 'Moeda Whitepaper',
+      Attachments: [
+        {
+          id: 'attGj6TOIrFHpuXt6',
+          url:
+            'http://predicamental.com/petiolate/unsparse?a=titterer&b=prehostile#impersuasible',
+          filename: 'Moeda-White-Paper-S.pdf',
+          size: 1126293,
+          type: 'application/pdf',
+          thumbnails: {
+            small: {
+              url:
+                'http://curly.com/rarefication/abroma?a=gamesome&b=zincification#myrmecoid',
+              width: 28,
+              height: 36,
+            },
+            large: {
+              url:
+                'http://lahontan.com/dark/fluctuous?a=goura&b=flabbergast#unworker',
+              width: 512,
+              height: 663,
+            },
+          },
+        },
+      ],
+      'Initiative or Org': ['rec9tcYkJcFk65KRz'],
+      Image: [
+        {
+          id: 'attnatGXucAEztjab',
+          url:
+            'http://quintocubital.com/propulsity/crassula?a=starshake&b=hydrocollidine#shoplifting',
+          filename:
+            'k1paa8BwTX6SaWPfYnRw_small_Moeda-White-Paper-S_pdf__page_1_of_24_.png',
+          size: 2554,
+          type: 'image/png',
+          thumbnails: {
+            small: {
+              url:
+                'http://zyryan.com/circumaxile/scheat?a=gynecocratic&b=fatalness#chalcites',
+              width: 47,
+              height: 36,
+            },
+            large: {
+              url:
+                'http://appleberry.com/maladdress/byssus?a=egalitarian&b=isomeride#punter',
+              width: 47,
+              height: 36,
+            },
+            full: {
+              url:
+                'https://colloquialism.com/protuberance/hability?a=rotundate&b=moderately#agudist',
+              width: 47,
+              height: 36,
+            },
+          },
+        },
+      ],
+      Type: ['Publications'],
+    },
+  ],
+  'Partner & Sponsor Orgs': [
+    {
+      id: 'recu6vDPujry1GADn',
+      Name: 'Wall Street Blockchain Alliance',
+    },
+  ],
+  Data: [
+    {
+      id: 'recJMeGssgrmG1h4V',
+    },
+  ],
+}
+
 module.exports = {
   AIRTABLE_SCHEMA,
+  AIRTABLE_DATA,
 }

@@ -1,5 +1,283 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`As a developer, I can convert Airtable data to the 8base data. 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "$id": "recJMeGssgrmG1h4V",
+      "attachments": null,
+      "field_3": null,
+      "name": null,
+      "notes": null,
+    },
+  ],
+  "documentation": Array [
+    Object {
+      "$id": "recgw9jpI79Qq4QgN",
+      "attachments": Array [
+        Object {
+          "filename": "Moeda-White-Paper-S.pdf",
+          "public": true,
+          "url": "http://predicamental.com/petiolate/unsparse?a=titterer&b=prehostile#impersuasible",
+        },
+      ],
+      "description": null,
+      "image": Array [
+        Object {
+          "filename": "k1paa8BwTX6SaWPfYnRw_small_Moeda-White-Paper-S_pdf__page_1_of_24_.png",
+          "public": true,
+          "url": "http://quintocubital.com/propulsity/crassula?a=starshake&b=hydrocollidine#shoplifting",
+        },
+      ],
+      "initiativeOrOrg": Array [
+        Object {
+          "$id": "rec9tcYkJcFk65KRz",
+        },
+      ],
+      "name": "Moeda Whitepaper",
+      "type": Array [
+        "Publications",
+      ],
+      "url": null,
+    },
+  ],
+  "globalGoals": Array [
+    Object {
+      "$id": "rechT6UR9vhn8piTf",
+      "attachments": null,
+      "image": Array [
+        Object {
+          "filename": "E_SDG_Icons-01.jpg",
+          "public": true,
+          "url": "http://neurochord.com/stethophonometer/dukkeripen?a=balanophoraceae&b=chichi#graffage",
+        },
+      ],
+      "initiativesOrganizations": Array [
+        Object {
+          "$id": "recob0RotXSrmDEaT",
+        },
+        Object {
+          "$id": "rec8kSMZLIy3WxVqi",
+        },
+        Object {
+          "$id": "recjpQijJGIz2FNeV",
+        },
+        Object {
+          "$id": "recnFTWO2NdgAvHzB",
+        },
+        Object {
+          "$id": "reczXmAn8HV7juCZL",
+        },
+        Object {
+          "$id": "recRuAwbSVklDc6s7",
+        },
+        Object {
+          "$id": "recLu5lkXd9LR2gdB",
+        },
+        Object {
+          "$id": "recaGe4YM6surTc9a",
+        },
+        Object {
+          "$id": "recy2RmoymS2zyuBG",
+        },
+      ],
+      "name": "No Poverty",
+      "notes": "Goal 1 calls for an end to poverty in all its manifestations by 2030. It also aims to ensure social protection for the poor and vulnerable, increase access to basic services and support people harmed by climate-related extreme events and other economic, social and environmental shocks and disasters.",
+      "url": "http://plinian.com/pampharmacon/perionychia?a=bedur&b=prolocutress#holothurian",
+    },
+  ],
+  "initiativeType": Array [
+    Object {
+      "$id": "recusBlXdpbDmISxB",
+      "initiativesOrganizations": Array [
+        Object {
+          "$id": "rec6adm6HhdjRyX5V",
+        },
+      ],
+      "name": "Academic Institution",
+      "notes": null,
+      "url": null,
+    },
+  ],
+  "initiativesOrganizations": Array [
+    Object {
+      "$id": "recJqTXT1I3ReZqkH",
+      "affiliatedInitiativesOrganizations": Array [
+        Object {
+          "$id": "recOFoBXVal0LvcnP",
+        },
+        Object {
+          "$id": "recv2VSlGhCJRYxCo",
+        },
+        Object {
+          "$id": "recPpoEavzOUPudvK",
+        },
+        Object {
+          "$id": "receCtd8W2TRX1QQx",
+        },
+        Object {
+          "$id": "rectiv5jfi4sCUCcp",
+        },
+        Object {
+          "$id": "recXKxZWxLneNP6Qs",
+        },
+      ],
+      "beneficiaries": "low-income singles, couples and families with programs and services",
+      "blogUpdatesRss": null,
+      "description": "Great Bergen Community Action (formerly Bergen Community Action Program) empowers low-income singles, couples and families with programs and services that help them on their road to self-sustainability and a stronger future.",
+      "documentation": null,
+      "globalGoals": null,
+      "image": Array [
+        Object {
+          "filename": "1ST Bergen Federal Credit Union.png",
+          "public": true,
+          "url": "http://spongoblast.com/convertibility/pseudoaquatic?a=pitter&b=valeramide#thomsenolite",
+        },
+      ],
+      "initiativeName": "1ST Bergen Federal Credit Union",
+      "keyPartnersSponsors": null,
+      "keyPeople": null,
+      "lastUpdated": "2017-06-22",
+      "latitude": null,
+      "locationsRegions": "Hackensak, New Jersey, USA",
+      "longitude": null,
+      "objectives": null,
+      "serviceCategories": Array [
+        "Deposits & Savings",
+        "Financial Counseling & Education",
+        "Wealth Management",
+      ],
+      "techTypes": null,
+      "twitter": "http://haygrower.com/foliicolous/bokard?a=perfectivize&b=mesoscutellum#pandle",
+      "type": Array [
+        Object {
+          "$id": "recA147S2P4ky4yPD",
+        },
+      ],
+      "url": "http://www.1stbergen.com",
+    },
+  ],
+  "objectives": Array [
+    Object {
+      "$id": "rechfRV8UQHQtHJ6o",
+      "attachments": null,
+      "name": "Financial inclusion",
+      "notes": null,
+      "orgsProjectsProducts": Array [
+        Object {
+          "$id": "recY5d1baWHgleN0X",
+        },
+        Object {
+          "$id": "recob0RotXSrmDEaT",
+        },
+        Object {
+          "$id": "reckHxRSaQDlu3OFU",
+        },
+        Object {
+          "$id": "recsokeOUzBWhJnWs",
+        },
+        Object {
+          "$id": "recjpQijJGIz2FNeV",
+        },
+        Object {
+          "$id": "recJ4O7J6xVk1mNlZ",
+        },
+        Object {
+          "$id": "recj7RZcNfnRIYnCM",
+        },
+        Object {
+          "$id": "recNTKBlemYsB5NZT",
+        },
+        Object {
+          "$id": "rec0DXPsMkCJqjh4F",
+        },
+        Object {
+          "$id": "recqRZpC90IAaYSyK",
+        },
+        Object {
+          "$id": "reczXmAn8HV7juCZL",
+        },
+        Object {
+          "$id": "recRuAwbSVklDc6s7",
+        },
+        Object {
+          "$id": "recaGe4YM6surTc9a",
+        },
+        Object {
+          "$id": "recLydfVnYmfeXSEj",
+        },
+        Object {
+          "$id": "recy2RmoymS2zyuBG",
+        },
+      ],
+    },
+  ],
+  "partnerSponsorOrgs": Array [
+    Object {
+      "$id": "recu6vDPujry1GADn",
+      "description": null,
+      "initiativesOrganizations": null,
+      "name": "Wall Street Blockchain Alliance",
+      "twitter": null,
+      "url": null,
+    },
+  ],
+  "people": Array [
+    Object {
+      "$id": "recOPQF5tZGeSIAHa",
+      "blogsUpdates": "https://heliotactic.com/supercommentator/postliminous?a=unbeaconed&b=cyanobenzene#ham",
+      "images": Array [
+        Object {
+          "filename": "AAEAAQAAAAAAAAmFAAAAJGM2ZTI1MDYzLWQ5YWEtNDZiOC05NWNkLWUzYzVmYjU4NzViMA.jpg",
+          "public": true,
+          "url": "http://floodwood.com/pap/crystallographical?a=electrification&b=alcaldeship#malasapsap",
+        },
+      ],
+      "linkedin": "https://ichorrhemia.com/joachim/lipwork?a=hatbox&b=pedro#intersale",
+      "name": "Taynah Reis",
+      "notes": null,
+      "organizations": Array [
+        Object {
+          "$id": "rec9tcYkJcFk65KRz",
+        },
+      ],
+      "twitter": null,
+    },
+  ],
+  "technologyTypes": Array [
+    Object {
+      "$id": "recT2RORVIXCSAgJT",
+      "attachments": null,
+      "initiativesOrganizations": Array [
+        Object {
+          "$id": "rec9tcYkJcFk65KRz",
+        },
+        Object {
+          "$id": "recJicKuc903TfZpx",
+        },
+        Object {
+          "$id": "recl6haRAFO42kIAl",
+        },
+        Object {
+          "$id": "recY5d1baWHgleN0X",
+        },
+        Object {
+          "$id": "recsokeOUzBWhJnWs",
+        },
+        Object {
+          "$id": "recJ4O7J6xVk1mNlZ",
+        },
+      ],
+      "initiativesOrgs": null,
+      "learnMore": "https://downswing.com/unselfness/prehensor?a=broommaker&b=eggler#unrelatedness",
+      "name": "Blockchain",
+      "notes": "A distributed database that is used to maintain a continuously growing list of records, called blocks. Each block contains a timestamp and a link to a previous block.",
+      "serviceCategories": null,
+    },
+  ],
+}
+`;
+
 exports[`As a developer, I can convert Airtable schema to the 8base schema. 1`] = `
 Array [
   Object {
