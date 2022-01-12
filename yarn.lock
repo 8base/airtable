@@ -2,21 +2,29 @@
 # yarn lockfile v1
 
 
-"@8base/schema-name-generator@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@8base/schema-name-generator/-/schema-name-generator-0.1.1.tgz#66abca53e9be1fa348a80549f83727d714cf68c6"
-  integrity sha512-C5bA/utiejd9K5RQbRdAatFVTlvoQ9SdiAnsxNb3NunTOQEqiuiAxRWCtEe3KSriGPgIdiyAx10cP38vPUyLuQ==
+"@8base/error-codes@^1.0.22":
+  version "1.0.22"
+  resolved "https://registry.yarnpkg.com/@8base/error-codes/-/error-codes-1.0.22.tgz#01f8a1a785aac5ad210e57fcc2ea74234d731db9"
+  integrity sha512-zOQuh/8L23JVMrdlvnZy9HwD/dUf/jBwMR0orkCZD2ELxyzKEs6yURX7hi5ZFhd0/cZnL0/THI6qqIK6scliNQ==
+
+"@8base/schema-name-generator@^0.1.23":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@8base/schema-name-generator/-/schema-name-generator-0.1.23.tgz#82bafcdf8cde12e27baa223b9576456afd6e11aa"
+  integrity sha512-NTAQ1drykexbuYiFnPlBnpiKTGfSpLXMaJZ6wte5qKq2cHbY+auyLpu9M80pS8KGbCF/zU8Z+/D4P4mUn4cUPg==
   dependencies:
+    lodash "^4.17.19"
     pluralize "^7.0.0"
 
-"@8base/utils@^0.15.1":
-  version "0.15.1"
-  resolved "https://registry.yarnpkg.com/@8base/utils/-/utils-0.15.1.tgz#f5b8b0433643747b248cee9e1897b94fb5dd9e6f"
-  integrity sha512-L2LimfYfaRB+QtIvsDkDhCEXq666JRh+z+0+O7e41ohoBkZ9jDo6l5nBZt9Xlyk3HbGiGcvViGqj8Wk26aGDGg==
+"@8base/utils@^2.0.0":
+  version "2.6.5"
+  resolved "https://registry.yarnpkg.com/@8base/utils/-/utils-2.6.5.tgz#36ad03af9702c01e4bb0f9c04f84b1bd6da3df1f"
+  integrity sha512-SurRRRcrC9LsywZEPjM8N6Y0wrHGoRIsPXB8Qe9Z/ZcBIn/PtmfETMMXjCXg79FaJ7hgos6XY20hE31dtCF6fg==
   dependencies:
-    "@8base/schema-name-generator" "^0.1.1"
-    "@babel/runtime" "^7.3.1"
-    ramda "^0.26.1"
+    "@8base/error-codes" "^1.0.22"
+    "@8base/schema-name-generator" "^0.1.23"
+    graphql-prettier "^1.0.6"
+    prettier "^2.2.1"
+    ramda "^0.27.1"
     reselect "^4.0.0"
 
 "@babel/code-frame@^7.0.0":
@@ -114,13 +122,6 @@
   integrity sha512-t0JKGgqk2We+9may3t0xDdmneaXmyxq0xieYcKHxIsrJO64n1OiMWNUtc5gQK1PA0NpdCRrtZp4z+IUaKugrSA==
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
-
-"@babel/runtime@^7.3.1":
-  version "7.3.4"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.3.4.tgz#73d12ba819e365fcf7fd152aed56d6df97d21c83"
-  integrity sha512-IvfvnMdSaLBateu0jfsYIpZTxAc2cKEXEMiezGGN75QcBcecDUKd3PgLAncT0oOgxKy8dd8hrJKj9MfzgfZd6g==
-  dependencies:
-    regenerator-runtime "^0.12.0"
 
 "@babel/template@^7.0.0", "@babel/template@^7.1.0", "@babel/template@^7.1.2", "@babel/template@^7.2.2":
   version "7.2.2"
@@ -1384,6 +1385,20 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
 
+graphql-prettier@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/graphql-prettier/-/graphql-prettier-1.0.6.tgz#ec7f0372876950ed41508559cd34e66128f2be4a"
+  integrity sha512-Rq2eRQgT7obypnYb+tE27Ira7BYW+YFMdgZT6azrYgVCldNrULHuYOhWZlvjxBKTAU+t/aj8zneiRBuYnj/SNA==
+  dependencies:
+    graphql "^14.1.1"
+
+graphql@^14.1.1:
+  version "14.7.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-14.7.0.tgz#7fa79a80a69be4a31c27dda824dc04dac2035a72"
+  integrity sha512-l0xWZpoPKpppFzMfvVyFmp9vLN7w/ZZJPefUicMCepfJeQ8sMcztloGYY9DfjVPo6tIUDzU5Hw3MUbIjj9AVVA==
+  dependencies:
+    iterall "^1.2.2"
+
 growly@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
@@ -1863,6 +1878,11 @@ istanbul-reports@^2.1.1:
   integrity sha512-FzNahnidyEPBCI0HcufJoSEoKykesRlFcSzQqjH9x0+LC8tnnE/p/90PBLu8iZTxr8yYZNyTtiAujUqyN+CIxw==
   dependencies:
     handlebars "^4.1.0"
+
+iterall@^1.2.2:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.3.0.tgz#afcb08492e2915cbd8a0884eb93a8c94d0d72fea"
+  integrity sha512-QZ9qOMdF+QLHxy1QIpUHUU1D5pS2CG2P69LF6L6CPjPYA/XMOmKV3PZpawHoAjHNyB0swdVTRxdYT4tbBbxqwg==
 
 jest-changed-files@^24.0.0:
   version "24.0.0"
@@ -2371,6 +2391,11 @@ lodash@4.17.11, lodash@^4.17.11:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+
+lodash@^4.17.19:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loose-envify@^1.0.0:
   version "1.4.0"
@@ -3011,6 +3036,11 @@ prettier@1.16.4:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.4.tgz#73e37e73e018ad2db9c76742e2647e21790c9717"
   integrity sha512-ZzWuos7TI5CKUeQAtFd6Zhm2s6EpAD/ZLApIhsF9pRvRtM1RFo61dM/4MSRUA0SuLugA/zgrZD8m0BaY46Og7g==
 
+prettier@^2.2.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
+  integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
+
 pretty-format@^24.0.0:
   version "24.0.0"
   resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-24.0.0.tgz#cb6599fd73ac088e37ed682f61291e4678f48591"
@@ -3089,10 +3119,10 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-ramda@^0.26.1:
-  version "0.26.1"
-  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.26.1.tgz#8d41351eb8111c55353617fc3bbffad8e4d35d06"
-  integrity sha512-hLWjpy7EnsDBb0p+Z3B7rPi3GDeRG5ZtiI33kJhTt+ORCd38AbAIjB/9zRIUoeTbE/AVX5ZkU7m6bznsvrf8eQ==
+ramda@^0.27.1, ramda@^0.27.2:
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.2.tgz#84463226f7f36dc33592f6f4ed6374c48306c3f1"
+  integrity sha512-SbiLPU40JuJniHexQSAgad32hfwd+DRUdwF2PlVuI5RZD0/vahUco7R8vD86J/tcEKKF9vZrUVwgtmGCqlCKyA==
 
 rc@^1.2.7:
   version "1.2.8"
@@ -3140,11 +3170,6 @@ realpath-native@^1.0.0, realpath-native@^1.0.2:
   integrity sha512-wlgPA6cCIIg9gKz0fgAPjnzh4yR/LnXovwuo9hvyGvx3h8nX4+/iLZplfUWasXpqD8BdnGnP5njOFjkUwPzvjA==
   dependencies:
     util.promisify "^1.0.0"
-
-regenerator-runtime@^0.12.0:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
-  integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
 
 regex-not@^1.0.0, regex-not@^1.0.2:
   version "1.0.2"
